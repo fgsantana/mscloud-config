@@ -22,7 +22,7 @@ spring:
           uri: lb://PDT-CATALOG
           predicates:
             - Path=/product/**
-        - id: shpping-cart
-          uri: lb://SHPPNG-CART
+        - id: shppingcart
+          uri: lb://SHPPNGCART
           predicates:
             - Path=/cart/**
